@@ -10,7 +10,7 @@ h4{
 }
 
 /* nav */
-nav{
+nav, footer{
   border: 2px solid #072798;
   background-color: #072798;
   border-radius: 10px;
@@ -31,9 +31,6 @@ nav{
         color: #fff;
         text-decoration: none;
       }
-.container{
-  border: 2px solid red;
-}
 p{
   color: #046543;
   font-size: 14pt;
@@ -108,3 +105,10 @@ img{
   float: right;
 
 }
+
+footer{
+  clear: both;
+}
+  #copyright{
+    color: #079886;
+  }
